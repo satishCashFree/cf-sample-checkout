@@ -2,6 +2,6 @@ setup:
   - type: shell
     command: go mod tidy
   - type: shell
-    command: export CASHFREE_CLIENT_ID=DEC_STR<Q2YI+somLdQo/Swp1qCwHICoIQ+/WNpN0XAv95w+WgX9gYLY>
+    command: export CASHFREE_CLIENT_ID=DEC_STR<Q2YI+somLdQo/Swp1qCwHICoIQ+/WNpN0XAv95w+WgX9gYLY> && export CASHFREE_CLIENT_SECRET=DEC_STR<Q2YI+p9zLN4v8nx63KbtToKtIVq5DN4c2yEt+MA/VwL2iITaexTNwXhLu3M=>
   - type: shell
     command: go run cmd/main.go
