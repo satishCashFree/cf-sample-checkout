@@ -1,0 +1,5 @@
+setup:
+  - type: shell
+    command: go mod tidy
+  - type: shell
+    command: export CASHFREE_CLIENT_ID = DEC:cbsafgkcshv
